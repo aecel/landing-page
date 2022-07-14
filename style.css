@@ -1,0 +1,157 @@
+* {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+html {
+    margin: 0;
+}
+
+.header,
+.promotion {
+    background-color: #1F2937;
+    color: white;
+    padding: 20px 40px;
+}
+
+h1 {
+    margin: 0;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 40px;
+}
+
+.logo {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+ul {
+    display: flex;
+    list-style: none;
+    gap: 20px;
+}
+
+.promotion {
+    min-height: 400px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 50px;
+}
+
+.promotion-big-text,
+.promotion-small-text {
+    margin-bottom: 16px;
+}
+
+.promotion-right {
+    background-color: #6D747D;
+    height: 250px;
+    width: 500px;
+    text-align: center;
+}
+
+button {
+    padding: 8px 12px;
+    border-radius: 8px;
+    color: white;
+    font-weight: bold;
+    background-color: #3882F6;
+}
+
+.action-button {
+    border-color: white;
+}
+
+.info {
+    min-height: 400px;
+    text-align: center;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.info-header {
+    margin-bottom: 40px;
+}
+
+.info-blocks {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.info-block {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+}
+
+.info-img {
+    height: 100px;
+    width: 100px;
+    border: 4px dashed #3882F6;
+    border-radius: 50%;
+    margin-bottom: 16px;
+}
+
+.quote {
+    min-height: 300px;
+    background-color: #E5E7EB;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    padding: 60px;
+    color: rgb(63, 61, 61);
+}
+
+.quote-text {
+    font-style: italic;
+    font-weight: light;
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.quotee {
+    font-weight: bold;
+    font-size: 24px;
+    text-align: right;
+}
+
+.action {
+    min-height: 300px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.blue-box {
+    height: 200px;
+    width: 1000px;
+    background-color: #3882F6;
+    border-radius: 20px;
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    padding: 20px 100px;
+    align-items: center;
+}
+
+.action-text {
+    color: white;
+}
+
+.action-header {
+    font-weight: bold;
+    font-size: larger;
+}
