@@ -58,7 +58,7 @@ ul {
     width: 300px;
     object-fit: cover;
     border-radius: 50%;
-
+    border: 8px solid white;
 }
 
 button {
@@ -71,6 +71,7 @@ button {
 
 .action-button {
     border-color: white;
+    margin-left: auto;
 }
 
 .info {
@@ -118,19 +119,33 @@ h2 {
     min-height: 300px;
     background-color: #E5E7EB;
     display: flex;
-    justify-content: center;
+    
     flex-direction: column;
-    align-items: center;
+
     padding: 60px 150px;
     color: rgb(63, 61, 61);
     
+}
+
+.pat {
+    display: flex;
+    justify-content: center;
+}
+
+.patrick {
+    height: 150px;
+    width: 150px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-bottom: 40px;
 }
 
 .quote-text {
     font-style: italic;
     font-weight: light;
     font-size: 36px;
-    margin-bottom: 20px;
+    margin-bottom: 40px;
+    text-align: center;
 }
 
 .quotee {
@@ -154,10 +169,18 @@ h2 {
     background-color: #3882F6;
     border-radius: 20px;
     display: flex;
-    justify-content: space-between;
-    gap: 20px;
+    justify-content: left;
+    gap: 40px;
     padding: 20px 100px;
     align-items: center;
+}
+
+.action-image {
+    height: 150px;
+    width: 150px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 4px solid white;
 }
 
 .action-text {
