@@ -1,193 +1,192 @@
 * {
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 
 body {
-    padding: 0;
-    margin: 0;
+  padding: 0;
+  margin: 0;
 }
 
 .header,
 .promotion {
-    background-color: #1F2937;
-    color: white;
-    padding: 20px 40px;
+  background-color: #1f2937;
+  color: white;
+  padding: 20px 40px;
 }
 
 h1 {
-    margin: 0;
-    font-size: 48px;
-    font-weight: extra-bold;
+  margin: 0;
+  font-size: 48px;
+  font-weight: extra-bold;
 }
 
 .header {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 40px;
 }
 
 .logo-png {
-    padding-top: 12px;
-    height: 60px;
-    width: auto;
+  padding-top: 12px;
+  height: 60px;
+  width: auto;
 }
 
 ul {
-    display: flex;
-    list-style: none;
-    gap: 20px;
+  display: flex;
+  list-style: none;
+  gap: 20px;
 }
 
 .promotion {
-    min-height: 500px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    gap: 50px;
-    padding: 0px 120px;
+  min-height: 500px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 50px;
+  padding: 0px 120px;
 }
 
 .promotion-big-text,
 .promotion-small-text {
-    margin-bottom: 16px;
+  margin-bottom: 16px;
 }
 
 .promotion-gif {
-    height: 300px;
-    width: 300px;
-    object-fit: cover;
-    border-radius: 50%;
-    border: 8px solid white;
+  height: 300px;
+  width: 300px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 8px solid white;
 }
 
 button {
-    padding: 8px 12px;
-    border-radius: 8px;
-    color: white;
-    font-weight: bold;
-    background-color: #3882F6;
+  padding: 8px 12px;
+  border-radius: 8px;
+  color: white;
+  font-weight: bold;
+  background-color: #3882f6;
 }
 
 .action-button {
-    border-color: white;
-    margin-left: auto;
+  border-color: white;
+  margin-left: auto;
 }
 
 .info {
-    min-height: 500px;
-    text-align: center;
-    padding: 20px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    color: #1F2937;
+  min-height: 500px;
+  text-align: center;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color: #1f2937;
 }
 
 h2 {
-    margin: 0;
+  margin: 0;
 }
 
 .info-header {
-    margin-bottom: 60px;
-    font-size: 24px;
+  margin-bottom: 60px;
+  font-size: 24px;
 }
 
 .info-blocks {
-    display: flex;
-    justify-content: center;
-    gap: 40px;
+  display: flex;
+  justify-content: center;
+  gap: 40px;
 }
 
 .info-block {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    width: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 200px;
 }
 
 .info-image {
-    height: 150px;
-    width: 150px;
-    object-fit: cover;
-    border-radius: 50%;
-    margin-bottom: 16px;
+  height: 150px;
+  width: 150px;
+  object-fit: cover;
+  border-radius: 50%;
+  margin-bottom: 16px;
 }
 
 .quote {
-    min-height: 300px;
-    background-color: #E5E7EB;
-    display: flex;
-    
-    flex-direction: column;
+  min-height: 300px;
+  background-color: #e5e7eb;
+  display: flex;
 
-    padding: 60px 150px;
-    color: rgb(63, 61, 61);
-    
+  flex-direction: column;
+
+  padding: 60px 150px;
+  color: rgb(63, 61, 61);
 }
 
 .pat {
-    display: flex;
-    justify-content: center;
+  display: flex;
+  justify-content: center;
 }
 
 .patrick {
-    height: 150px;
-    width: 150px;
-    object-fit: cover;
-    border-radius: 50%;
-    margin-bottom: 40px;
+  height: 150px;
+  width: 150px;
+  object-fit: cover;
+  border-radius: 50%;
+  margin-bottom: 40px;
 }
 
 .quote-text {
-    font-style: italic;
-    font-weight: light;
-    font-size: 36px;
-    margin-bottom: 40px;
-    text-align: center;
+  font-style: italic;
+  font-weight: light;
+  font-size: 36px;
+  margin-bottom: 40px;
+  text-align: center;
 }
 
 .quotee {
-    font-weight: bold;
-    font-size: 24px;
-    text-align: right;
+  font-weight: bold;
+  font-size: 24px;
+  text-align: right;
 }
 
 .action {
-    min-height: 400px;
-    background-color: white;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
+  min-height: 400px;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
 
 .blue-box {
-    height: 200px;
-    width: 1000px;
-    background-color: #3882F6;
-    border-radius: 20px;
-    display: flex;
-    justify-content: left;
-    gap: 40px;
-    padding: 20px 100px;
-    align-items: center;
+  height: 200px;
+  width: 1000px;
+  background-color: #3882f6;
+  border-radius: 20px;
+  display: flex;
+  justify-content: left;
+  gap: 40px;
+  padding: 20px 100px;
+  align-items: center;
 }
 
 .action-image {
-    height: 150px;
-    width: 150px;
-    object-fit: cover;
-    border-radius: 50%;
-    border: 4px solid white;
+  height: 150px;
+  width: 150px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 4px solid white;
 }
 
 .action-text {
-    color: white;
+  color: white;
 }
 
 .action-header {
-    font-weight: bold;
-    font-size: larger;
+  font-weight: bold;
+  font-size: larger;
 }
